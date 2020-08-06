@@ -8,6 +8,7 @@ public class GitController {
 
     @GetMapping("/hello")
     public String first() {
+        System.out.println("dev....");
         return "Hello Git! ";
     }
 }
